@@ -1,16 +1,27 @@
 {
-	"name": "your-module-name",
+	"name": "livetennisapi",
 	"version": "0.1.0",
+	"description": "Bitfocus Companion connection for the Live Tennis API: live tennis scores as variables, feedbacks and actions",
 	"main": "src/main.js",
+	"type": "module",
 	"scripts": {
 		"format": "prettier -w .",
+		"lint:raw": "eslint",
+		"lint": "yarn lint:raw .",
+		"test": "node --test \"test/**/*.test.js\"",
+		"check": "companion-module-check",
 		"package": "companion-module-build"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-your-module-name.git"
+		"url": "git+https://github.com/livetennisapi/companion-module-livetennisapi.git"
 	},
+	"bugs": {
+		"url": "https://github.com/livetennisapi/companion-module-livetennisapi/issues"
+	},
+	"homepage": "https://livetennisapi.com",
+	"author": "Live Tennis API <hello@livetennisapi.com>",
 	"engines": {
 		"node": "^22.20",
 		"yarn": "^4"
@@ -20,6 +31,7 @@
 	},
 	"devDependencies": {
 		"@companion-module/tools": "^3.1.0",
+		"eslint": "^10.10.0",
 		"prettier": "^3.8.3"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json",

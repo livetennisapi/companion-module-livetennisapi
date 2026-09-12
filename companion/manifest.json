@@ -1,18 +1,18 @@
 {
 	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
 	"type": "connection",
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "livetennisapi",
+	"name": "Live Tennis API",
+	"shortname": "livetennis",
+	"description": "Live tennis scores (ATP, WTA, Challenger, ITF) from the Live Tennis API as button variables and feedbacks: players, sets, games, points, server, break point, tiebreak, match status",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/livetennisapi/companion-module-livetennisapi.git",
+	"bugs": "https://github.com/livetennisapi/companion-module-livetennisapi/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Live Tennis API",
+			"email": "hello@livetennisapi.com"
 		}
 	],
 	"runtime": {
@@ -22,7 +22,7 @@
 		"entrypoint": "../src/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Live Tennis API",
+	"products": ["Live Tennis API"],
+	"keywords": ["tennis", "scores", "sports", "scorebug", "broadcast"]
 }
