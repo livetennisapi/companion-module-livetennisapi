@@ -21,7 +21,11 @@
 		"url": "https://github.com/livetennisapi/companion-module-livetennisapi/issues"
 	},
 	"homepage": "https://livetennisapi.com",
-	"author": "Live Tennis API <hello@livetennisapi.com>",
+	"author": {
+		"name": "Synapse Research Ltd",
+		"email": "hello@livetennisapi.com",
+		"url": "https://synapsereality.io"
+	},
 	"engines": {
 		"node": "^22.20",
 		"yarn": "^4"
