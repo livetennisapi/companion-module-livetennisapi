@@ -3,6 +3,9 @@ name: Companion Module Checks
 on:
   push:
 
+permissions:
+  contents: read
+
 jobs:
   check:
     name: Check module
