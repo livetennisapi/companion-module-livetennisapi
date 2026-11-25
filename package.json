@@ -34,8 +34,8 @@
 		"@companion-module/base": "~2.2.2"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^3.2.0",
-		"eslint": "^10.14.0",
+		"@companion-module/tools": "^3.2.1",
+		"eslint": "^10.15.0",
 		"prettier": "^3.10.1"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json",
